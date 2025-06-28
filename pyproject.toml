@@ -1,0 +1,19 @@
+[project]
+name = "software-cost-estimation"
+version = "0.1.0"
+description = "COCOMO II and other cost estimation models as a Python library"
+authors = [{ name = "Aayush Gid", email = "your@email.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["cocomo", "software cost estimation", "effort estimation", "scheduling"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
